@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+
+}
+
+section {
+    display: flex;
+    background-color: rgb(241, 235, 235);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.form-box {
+    width: 760px;
+    height: 568px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2em;
+    color: rgb(0, 0, 0)
+}
+
+p {
+    text-align: center;
+    color: #000;
+    font-size: 1.2rem;
+}
+
+.inputbox {
+    margin: 30px 0;
+}
+
+
+.inputbox input {
+    width: 300px;
+    height: 35px;
+    margin-left: 50px;
+    font-size: 15px;
+    padding: 0 35px 0 5px;
+    border-radius: 5px;
+    border-color: lightgray;
+    color: black;
+}
+
+.header {
+    text-align: center;
+    line-height: 40px;
+}
+
+header {
+    position: absolute;
+    top: 20px;
+}
+
+.icon {
+    position: relative;
+    top: 10px;
+}
+
+.forget {
+    margin: -15px 0 15px;
+
+    color: #000;
+    display: flex;
+    justify-content: end;
+}
+
+.forget label a {
+    color: #000;
+    text-decoration: none;
+}
+
+.forget label a {
+    margin-right: 10px;
+}
+
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+input[type="checkbox"] {
+    accent-color: green;
+    width: 20px;
+}
+
+span{
+    margin-left: 35px;
+}
+
+button {
+    width: 400px;
+    height: 40px;
+    border-radius: 5px;
+    background: #DD3D49;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+.login {
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+a,
+.login-text {
+    color: #DD3D49;
+    text-decoration: none;
+    margin: 10px;
+}
+
+a,
+.login-text:hover {
+    text-decoration: underline;
+}
